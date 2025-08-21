@@ -1,0 +1,84 @@
+AI Email Intelligence Engine
+This project is an AI-powered system designed to automatically process, sort, and analyze emails. It transforms a high-volume inbox into an organized and actionable workflow by providing a complete analysis for each email, including a classification, contextual facts from a knowledge base, and a drafted reply.
+
+🚀 Features
+Hybrid AI Architecture: Utilizes a lightweight model for instant classification and a powerful local LLM for in-depth analysis.
+
+Retrieval-Augmented Generation (RAG): Enriches emails with facts from a private knowledge base to ensure grounded, context-aware responses.
+
+Automated Triage: Instantly classifies emails by intent (e.g., Sales Inquiry, Tech Support) and urgency (High, Medium, Low).
+
+Intelligent Analysis: Generates a one-sentence summary, suggests actionable next steps, and drafts a professional reply for each email.
+
+Fully Local & Private: The entire analysis pipeline runs locally, ensuring data privacy.
+
+API-First Design: Built with FastAPI to expose the entire workflow through a clean, modern API.
+
+🛠️ How It Works (System Architecture)
+When an email comes in, it goes through a 4-step assembly line:
+
+Quick Sort (Triage): First, a fine-tuned DistilBERT model takes a quick look and slaps a label on the email with its basic intent and urgency.
+
+Library Research (RAG): The system then takes the email to a ChromaDB vector database (our "library") to find the most relevant internal documents for context.
+
+Expert Analysis (LLM): The original email and the "library research" are handed over to a local Mistral-7B-Instruct model. Guided by a detailed prompt, this AI generates the final summary, next steps, and draft reply.
+
+Final Package (API Response): All three outputs (the quick sort, the research, and the expert analysis) are bundled into a single JSON object and sent back as the final answer.
+
+💻 The Toolkit (Technology Stack)
+Backend: FastAPI, Uvicorn
+
+Machine Learning: PyTorch, Hugging Face transformers, datasets, Scikit-learn
+
+Generative AI: LangChain, CTransformers
+
+Vector Database: ChromaDB
+
+Data Handling: Pandas
+
+Environment: Python, Jupyter Notebooks
+
+▶️ How to Run It
+Ready to try it out? Here’s how to get it running on your machine.
+
+1. What You'll Need
+Python 3.10 or higher
+
+A virtual environment tool like venv or conda
+
+2. Setup
+First, clone the repository and jump into the project folder.
+
+git clone <your-repo-url>
+cd email-intelligence-engine
+
+Next, create and activate a virtual environment.
+
+# Using venv
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+Install all the necessary libraries in one go.
+
+pip install -r requirements.txt
+
+3. Build the AI's "Library"
+Before running the app, you need to build the vector database from the documents in the knowledge_base folder.
+
+python build_vector_db.py
+
+This will create a new /db folder.
+
+4. Start the Server
+Now, launch the application with the Uvicorn server.
+
+uvicorn main:app --reload
+
+Heads up: The first time you run this, it will download the local LLM model file. This is a big file (a few gigabytes), so it might take 5-15 minutes. This only happens once!
+
+5. Test the API
+Once the server is running (you'll see Application startup complete), you can open the interactive API docs in your browser here:
+
+http://127.0.0.1:8000/docs
+
+From there, you can use the "Try it out" feature to send emails and see the AI's analysis in real-time.

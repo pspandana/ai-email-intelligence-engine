@@ -1,0 +1,502 @@
+[
+  {
+    "email_text": "Subject: Inquiry about Starlight Platform Pricing\n\nHi Team,\n\nCould you please provide me with the pricing details for your Starlight Platform? We are a mid-sized e-commerce company and are interested in the enterprise tier. A feature comparison sheet would also be helpful.\n\nThanks,\nJohn Doe",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: URGENT: API Gateway is Down!\n\nHello Support,\n\nOur integration with your Starlight API has completely stopped working as of 10:30 AM CDT. We are receiving 503 Service Unavailable errors on all endpoints. This is a critical production issue for us. Please advise immediately.\n\nBest,\nJane Smith, Lead Engineer",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Request for a Demo\n\nHi OrbitAI Sales,\n\nI saw your platform at the TechCrunch conference and was very impressed. Would it be possible to schedule a 30-minute demo for my team next week?\n\nRegards,\nAlex Johnson",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Quick Question: Project Nova Sync\n\nHi Sarah,\n\nCan we find 15 minutes tomorrow to sync up on the Project Nova timeline? I have a few questions about the Q4 deliverables.\n\nThanks,\nEmily",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Company Update: Welcome Our New Hires!\n\nHi Team,\n\nPlease join me in giving a warm welcome to our two new software engineers, Michael and Chloe, who are starting with us today! They will be joining the Starlight Platform team.\n\nBest,\nHR Department",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Minor Bug Report: Dashboard Date Filter\n\nHi Support,\n\nI've noticed a small bug in the analytics dashboard. When I filter by 'Last 90 Days', the chart doesn't seem to update correctly. It's not urgent, but I wanted to make you aware.\n\nThanks,\nPeter",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Urgent Meeting Request: Q3 Budget Review - EOD Deadline\n\nHi Finance Team,\n\nI need to schedule an urgent 30-minute meeting to finalize the Q3 budget report. This needs to be submitted by EOD today. Please let me know your availability ASAP.\n\nThanks,\nDirector of Operations",
+    "intent": "Meeting Request",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Partnership Opportunity\n\nHello OrbitAI,\n\nWe are a data visualization company and see a lot of synergy between our products. We would love to explore a potential partnership. Who would be the best person to speak with about this?\n\nSincerely,\nMaria Garcia",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Project Nova - Weekly Status Update\n\nHi Stakeholders,\n\nThis week, the Project Nova team completed the initial data gathering phase ahead of schedule. We are now moving into model architecture selection. No blockers to report.\n\nBest,\nSarah Chen",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: CRITICAL SYSTEM ALERT: Data Ingestion Pipeline Failure\n\nStarlight Support,\n\nOur primary data ingestion pipeline has failed. No new data has been processed in the last 2 hours. This is a severity-1 issue. We need immediate assistance.\n\nRegards,\nSystem Admin",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Follow-up on our call\n\nHi David,\n\nGreat chatting with you earlier. As discussed, can we schedule a follow-up call next Tuesday or Wednesday to walk through the integration steps?\n\nThanks,\nBen",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Question about custom reports\n\nHi Sales Team,\n\nDoes the Starlight Platform support creating custom, shareable reports? This is a key feature for us. Looking forward to your response.\n\nBest,\nLisa",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Reminder: Office Maintenance this Weekend\n\nHello Team,\n\nThis is a reminder that the office will be closed this Saturday for scheduled maintenance on the HVAC system. Please plan accordingly.\n\nThanks,\nOffice Management",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Issue with user permissions\n\nHi Support Team,\n\nI'm trying to add a new user to our account with 'viewer' permissions, but I keep getting an error message. Can you help me figure out what's wrong?\n\nThanks,\nChris",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Coffee Chat?\n\nHi Emily,\n\nI'd love to pick your brain about the new UX designs for the dashboard. Do you have 20 minutes for a virtual coffee chat sometime next week?\n\nBest,\nNew Product Manager",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Starlight Platform Trial Request\n\nHello,\n\nMy team would like to start a 14-day trial of your platform. How do we get started?\n\nThank you,\nSamantha",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Slow API Response Times\n\nSupport Team,\n\nWe've been noticing that API response times for the `/analytics` endpoint have been degraded for the past 24 hours, sometimes taking over 5 seconds. It's impacting user experience but not a full outage.\n\nRegards,\nDevOps Team",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Holiday Schedule Announcement\n\nHi Everyone,\n\nJust a reminder that the company will be closed next Monday in observance of Labor Day. Enjoy the long weekend!\n\nCheers,\nHR",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: URGENT: Security Vulnerability Report\n\nTo the OrbitAI Security Team,\n\nWe believe we have discovered a potential XSS vulnerability in your platform's login page. This is a critical security issue. Please provide a secure channel for us to disclose the details.\n\n- White Hat Security Researcher",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Brainstorm Session: Q4 Marketing Campaign\n\nHi Marketing,\n\nLet's schedule a 1-hour brainstorm session for the Q4 campaign. Please fill out the when2meet link to find the best time for everyone.\n\nThanks,\nCMO",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Question about data sources\n\nHi there,\n\nCan the Starlight platform integrate with social media data sources like Twitter and Facebook? This is a key requirement for our team.\n\nThanks,\nAnalyst",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: New Wiki Page for Project Nova\n\nTeam,\n\nI've created a new Confluence page that will serve as the single source of truth for all Project Nova documentation. You can find the link here: [link].\n\nBest,\nSarah",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Help with data export feature\n\nHi Support,\n\nI'm trying to export a report to CSV, but the file is coming out corrupted and unreadable. Can you please investigate?\n\nThank you,\nCustomer",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Urgent: Final review before client presentation Friday\n\nHi team,\n\nWe need to schedule a final 1-hour review of the client presentation deck. This must happen before our big meeting on Friday morning. Please clear your calendars.\n\nRegards,\nAccount Manager",
+    "intent": "Meeting Request",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Enterprise License Inquiry\n\nHello,\n\nWe are a Fortune 500 company interested in purchasing an enterprise-wide license for the Starlight Platform. We would require a dedicated account manager and premium support. Could you connect us with the appropriate sales director?\n\nBest,\nVP of Technology",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: All-Hands Meeting Next Wednesday\n\nHi OrbitAI Team,\n\nOur quarterly All-Hands meeting is scheduled for next Wednesday at 1 PM CDT. The CEO will be sharing our Q3 results and our vision for Q4. Please be sure to attend.\n\nThanks,\nExecutive Assistant",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Production Outage - User Login Failing\n\nSUPPORT - URGENT\n\nNone of our users are able to log in to the platform. We are getting a generic 'Authentication Failed' error. This is a complete outage for our entire user base. We need an update in the next 15 minutes.\n\n- CTO",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Request for Quote - 100 seats\n\nHi Sales,\n\nPlease provide an official quote for 100 user seats on your Professional plan. We are looking to make a purchasing decision by the end of the month.\n\nThank you,\nIT Procurement",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Quick chat about API documentation\n\nHi David,\n\nI had a few thoughts on how we could improve the API documentation for new users. Do you have 20 minutes to chat this week?\n\nThanks,\nTechnical Writer",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Typo in your documentation\n\nHi,\n\nJust a heads up, I found a small typo in your API documentation for the `/reports` endpoint. The parameter is listed as `report_ID` but it should be `report_id`. Not a big deal, just wanted to let you know!\n\nCheers,\nA Developer",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: New Coffee Machine in the Breakroom!\n\nHi everyone,\n\nGreat news! The new espresso machine has been installed in the main breakroom. Please feel free to use it and enjoy!\n\nBest,\nOffice Management",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Can we move our 1:1?\n\nHi Sarah,\n\nSomething came up and I need to reschedule our 1:1 meeting for this afternoon. Would sometime tomorrow morning work instead?\n\nSorry for the last-minute change,\nDavid",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Data not refreshing on dashboard\n\nHello Support,\n\nThe data on our main dashboard seems to be stale. The 'Last Updated' timestamp shows yesterday's date, and no new information is appearing. This is impacting our daily reporting.\n\nThanks,\nData Analyst",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Security and Compliance Information Request\n\nHello,\n\nAs part of our vendor review process, we need you to provide your SOC 2 Type II report and any other relevant security and compliance documentation. Can you please direct me to the right person?\n\nRegards,\nCompliance Officer",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: URGENT: Billing System Error - Double Charged\n\nHi Support,\n\nOur company credit card was just charged twice for our monthly subscription. This is a critical issue that needs to be resolved immediately. Please reverse the duplicate charge and confirm.\n\nThanks,\nFinance Department",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Project Nova Design Review\n\nHi Emily,\n\nCan we schedule a 1-hour design review for the Project Nova mockups with the product team? I'd like to get their feedback before we move to high-fidelity prototypes.\n\nBest,\nSarah",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: New IT Ticketing System\n\nHi Team,\n\nStarting next Monday, we will be using a new IT ticketing system to handle all support requests. Please use the new portal for any IT issues. An email with login instructions will be sent out on Friday.\n\nThanks,\nIT Department",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Is there an on-premise option?\n\nHi OrbitAI Sales,\n\nDue to our company's data privacy policies, we can only use on-premise software. Do you offer a version of the Starlight Platform that we can host on our own servers?\n\nThank you,\nCIO",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Unable to reset my password\n\nHello,\n\nI'm trying to reset my password using the 'Forgot Password' link, but I'm not receiving the reset email. I've checked my spam folder. Can you please assist?\n\nThanks,\nA User",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Final Interview Scheduling\n\nHi Candidate,\n\nWe'd like to invite you for a final round of interviews. Please let us know your availability for a 2-hour block next week.\n\nBest,\nRecruiting",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: PTO Policy Update\n\nHello Everyone,\n\nThis email is to inform you of an update to our Paid Time Off policy, effective September 1st. Please review the attached document for details.\n\nRegards,\nHR",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Question about SLA\n\nHi Sales Team,\n\nWhat is the Service Level Agreement (SLA) for your Enterprise plan? We need to know the guaranteed uptime and support response times.\n\nThanks,\nLegal Team",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: CRITICAL: Entire Platform Unresponsive\n\nSUPPORT - SEV1\n\nThe entire Starlight Platform is down. We are getting a 500 error on the login page and all API calls are failing. This is a major outage affecting all our operations. We need an immediate response and an ETA for a fix.\n\n- Head of Engineering",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Post-mortem meeting for yesterday's outage\n\nHi Engineering Team,\n\nWe need to schedule a mandatory post-mortem meeting to discuss the root cause of yesterday's platform outage. Please keep your calendars open for tomorrow afternoon.\n\nThanks,\nCTO",
+    "intent": "Meeting Request",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Welcome to the Team!\n\nHi Sarah,\n\nWelcome to OrbitAI! We are so excited to have you join us as our new Project Manager. Your first week's schedule is attached. Your laptop and swag are waiting for you at your desk.\n\nBest,\nYour Manager",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Integration with Salesforce\n\nHi Support,\n\nI'm trying to set up the Salesforce integration, but I'm getting an authentication error. I've followed the documentation, but it's not working. Can you help?\n\nThanks,\nSales Ops",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Non-profit discount?\n\nHello,\n\nWe are a registered non-profit organization and are very interested in your platform. Do you offer any discounts for non-profits?\n\nSincerely,\nExecutive Director",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Project Nova: Sprint Planning Meeting\n\nHi Project Nova Team,\n\nOur sprint planning meeting for the next two-week sprint is scheduled for this Monday at 10 AM. Please come prepared to discuss your priorities.\n\nThanks,\nSarah",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Incorrect data in weekly report\n\nHi,\n\nThe automated weekly report that was just sent out appears to have incorrect data for our 'User Engagement' metric. The numbers are significantly lower than expected. Can you please re-run the report?\n\nThanks,\nMarketing Analyst",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: End of Quarter Town Hall\n\nHi Team,\n\nThe End of Quarter Town Hall is next Friday. We'll be celebrating our wins and discussing our goals for the next quarter. Lunch will be provided!\n\nSee you there,\nLeadership Team",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Onboarding Documentation for Starlight API\n\nHi Support,\n\nWe are new customers and are trying to get started with the Starlight API. Is there a quickstart guide or more detailed onboarding documentation you can point us to? The current docs are a bit sparse.\n\nThanks,\nNew Developer",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Reminder: Q3 Performance Reviews Due EOW\n\nHi All,\n\nThis is a friendly reminder that all self-assessments for the Q3 performance review cycle are due by end-of-day this Friday. Please block out some time on your calendars to complete them.\n\nRegards,\nHR",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Urgent Demo Request - Competitor Comparison\n\nHi Sales Team,\n\nWe are currently evaluating several analytics platforms and need to make a decision by next week. We would like to schedule an urgent demo to see how the Starlight Platform compares to your main competitors. What is your earliest availability?\n\nBest,\nSarah, Head of Analytics",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: URGENT - Cannot access any user accounts\n\nSupport Team,\n\nWe are experiencing a critical issue. None of our administrators can log into the Starlight Platform. We are getting a 'Permission Denied' error for every account. This is effectively a full outage for our team. We need immediate assistance.\n\n- David, IT Director",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Project Nova - Retrospective Meeting\n\nHi Team Nova,\n\nLet's schedule a 45-minute retrospective for next Thursday to discuss what went well during the last sprint and what we can improve. Please come prepared with your thoughts.\n\nThanks,\nSarah Chen",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: New Security Policy Announcement\n\nHi Team,\n\nEffective immediately, we are implementing a new password complexity and rotation policy for all internal systems. Please review the attached document and update your passwords by the end of the week.\n\nThank you,\nSecurity Team",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Question about data export limits\n\nHello Support,\n\nI am trying to export a large dataset from the platform, but it seems to be failing. Is there a limit on the number of rows that can be exported at once? If so, what is the best way to export a full year's worth of data?\n\nRegards,\nData Analyst",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Request for Proposal (RFP) - Analytics Platform\n\nTo Whom It May Concern,\n\nOur organization has issued an RFP for a new enterprise-wide market analytics platform. Please find the document attached. The deadline for submissions is October 1st. Who is the appropriate contact at OrbitAI to handle this?\n\nSincerely,\nProcurement Department",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Design Sync for Nova Dashboard\n\nHi Emily,\n\nCan we schedule a 30-minute sync this week to go over the latest wireframes for the Project Nova dashboard? I want to make sure the backend can support the new chart types.\n\nBest,\nDavid Rodriguez",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: CRITICAL: Data Breach Detected\n\nSECURITY TEAM - URGENT ACTION REQUIRED\n\nWe have detected unauthorized access to one of our production databases. This is a critical security incident. We are initiating our incident response protocol. All hands on deck required immediately.\n\n- CISO",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: New Kitchen Snack Policy\n\nHi Everyone,\n\nJust a quick update on the kitchen snacks. To accommodate more dietary preferences, we'll be adding more gluten-free and vegan options starting next week. Please feel free to leave suggestions in the box!\n\nThanks,\nOffice Management",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Follow-up on Enterprise Pricing\n\nHi Sales,\n\nI reached out last week regarding pricing for an enterprise license but haven't heard back. Could someone please get in touch with me? We are on a tight timeline.\n\nRegards,\nJohn Doe",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Issue with Scheduled Reports\n\nHello Support,\n\nOur daily scheduled reports have not been delivered for the past two days. We rely on these for our morning meetings. Can you please investigate why the scheduler is failing?\n\nThanks,\nBusiness Intelligence Team",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Urgent: Client Escalation Meeting - Tomorrow AM\n\nHi Account Team,\n\nWe need to schedule an urgent internal prep meeting for the client escalation call tomorrow at 9 AM. Please clear your calendars for 8:30 AM to align on our strategy. This is a must-attend.\n\nThanks,\nVP of Sales",
+    "intent": "Meeting Request",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Company Offsite Announcement!\n\nTeam,\n\nGet ready! Our annual company offsite is officially scheduled for the first week of December. More details on the location and agenda will be shared soon. Get excited!\n\n- Culture Committee",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Question about GDPR compliance\n\nHello OrbitAI,\n\nCan you provide documentation on how the Starlight Platform complies with GDPR regulations? This is a critical requirement for our legal team before we can move forward with a purchase.\n\nSincerely,\nLegal Counsel",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Can't connect to database\n\nHi Support,\n\nI'm following your documentation to connect the platform to our internal Postgres database, but I keep getting a connection timeout error. I've double-checked the credentials and firewall rules. Can you help me troubleshoot?\n\n- Data Engineer",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Interview Debrief for PM Candidate\n\nHi Hiring Team,\n\nLet's schedule a 15-minute debrief session this afternoon to discuss the final Project Manager candidate. Please be prepared to share your feedback.\n\nThanks,\nRecruiting",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Fire Drill Tomorrow at 10 AM\n\nHi Office Staff,\n\nThis is a notification that we will be conducting a mandatory fire drill tomorrow, August 22nd, at 10:00 AM. Please proceed to the designated assembly point when the alarm sounds.\n\n- Building Management",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: COMPLETE OUTAGE - All Services Unreachable\n\nURGENT - SEV0\n\nYour entire platform at starlight.orbitai.com is down. The site is not resolving, and all API endpoints are returning connection errors. This is a complete and total outage. We need an update on your status page and an immediate response.\n\n- A Major Client",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Request for a custom feature\n\nHi Sales/Product Team,\n\nWe are very interested in your platform, but we require a specific feature: the ability to integrate with our proprietary in-house data warehouse. Is this something you could build for a custom enterprise contract?\n\nBest,\nCTO of Acme Corp",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Q4 Planning Kick-off Meeting\n\nHi Leadership Team,\n\nI've scheduled the Q4 planning kick-off meeting for next Monday. Please review the attached pre-read document outlining our goals and come prepared to discuss your department's proposed initiatives.\n\nRegards,\nChief of Staff",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Incorrect data in analytics report\n\nHello Support Team,\n\nI ran a report for user activity in the last 30 days, and the numbers seem significantly inflated compared to our internal tracking. Can you please investigate if there is an issue with your data aggregation process?\n\n- Marketing Analyst",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: IT System Maintenance Tonight\n\nHi Team,\n\nThis is a reminder that several internal IT systems, including our shared drives, will be down for scheduled maintenance tonight from 10 PM to 11 PM CDT. Please save all your work before then.\n\n- IT Department",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Question about Service Level Agreement (SLA)\n\nHi Sales,\n\nCould you please provide a copy of your Service Level Agreement for the Enterprise plan? Our legal team needs to review the uptime guarantees and support response times.\n\nThank you,\nContracts Manager",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: URGENT: User accounts are locked\n\nHi Support,\n\nMultiple users on our team are reporting that their accounts have been locked for no reason. They are unable to log in to get their work done. This is a high-priority issue for us.\n\n- Team Lead",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Brainstorm: Project Nova Marketing Launch\n\nHi Marketing Team,\n\nLet's get a meeting on the books to start brainstorming the launch campaign for Project Nova. I want to make sure we're aligned on messaging and channels well in advance.\n\n- Product Marketing Manager",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: New Referral Program!\n\nHi All,\n\nWe're excited to announce the launch of our new employee referral program! You can now earn a bonus for referring qualified candidates who get hired. Check out the details on the company intranet.\n\n- HR",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Can I get a quote for 50 seats?\n\nHello,\n\nMy company is interested in purchasing 50 seats for your Professional plan. Could you please provide an official quote, including any available volume discounts?\n\nThanks,\nIT Manager",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: UI Glitch in the Dashboard\n\nHi Support,\n\nI've found a minor visual glitch in the main dashboard. The right-side panel is overlapping with the main chart on screens with a resolution of 1440p. It's not breaking anything, but it looks unprofessional.\n\n- A User",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Urgent: Security Patch Review - Deadline Today\n\nHi Security Team,\n\nWe need to have an urgent 30-minute review of the proposed security patch for the recent vulnerability. This needs to be deployed by EOD, so the meeting must happen this morning. Please respond with your availability immediately.\n\n- Lead Developer",
+    "intent": "Meeting Request",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Welcome to the OrbitAI Team!\n\nHi [New Hire Name],\n\nOn behalf of the entire team, I'd like to extend a warm welcome to OrbitAI! We are thrilled to have you join us. Your manager will be in touch shortly with your onboarding schedule.\n\nBest,\nCEO",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Data export is failing\n\nHello Support,\n\nI'm trying to export my weekly report to a CSV file, but the process fails every time with a generic 'Export Failed' error message. I've tried multiple times. Can you help?\n\n- Customer",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Inquiry from a potential investor\n\nHello,\n\nI represent a venture capital firm and am very interested in OrbitAI's work in the analytics space. I would like to schedule a brief introductory call with the CEO or founder to learn more about your company.\n\nSincerely,\nVC Analyst",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: CRITICAL: Billing API returning incorrect data\n\nSupport,\n\nYour billing API is returning incorrect subscription statuses for our users. This is causing our system to lock out paying customers. This is a critical, revenue-impacting issue that needs to be fixed immediately.\n\n- Head of Engineering",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: All-Hands Prep Meeting\n\nHi Presenters,\n\nLet's schedule a 1-hour prep meeting before the company All-Hands next week. We need to run through the slides and make sure our timing is correct.\n\n- Executive Assistant",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: New Travel & Expense Policy\n\nHi Team,\n\nWe have updated our Travel and Expense policy. Please review the new guidelines on the company wiki before booking any future travel. The main change relates to per diem limits.\n\n- Finance Department",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Question about your security certifications\n\nHello,\n\nDoes OrbitAI have a SOC 2 Type II report or ISO 27001 certification? Our compliance team requires this information before we can proceed.\n\nThanks,\nSecurity Analyst",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Unable to add new team members\n\nHi Support,\n\nI am the admin for our account, but when I try to invite a new team member, the 'Invite' button is greyed out. I've checked our user limit, and we still have available seats. What's wrong?\n\n- Account Admin",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Coffee Chat?\n\nHi [Colleague Name],\n\nI'd love to learn more about the work your team is doing. Do you have 15-20 minutes for a virtual coffee chat next week?\n\nBest,\n[Your Name]",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Reminder: Update your email signatures\n\nHi All,\n\nAs a reminder, please update your email signatures to reflect our new company tagline as outlined in the brand guidelines. Let's ensure a consistent brand image.\n\n- Marketing",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: URGENT - Production database at 95% capacity\n\nDevOps Team,\n\nThis is an automated alert. The primary production database for the Starlight Platform is now at 95% storage capacity. This is a critical alert that requires immediate action to prevent a full system outage.\n\n- Monitoring System",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Education discount inquiry\n\nHello,\n\nI am a professor at a university and would like to use your platform for a data science course I am teaching. Do you offer any discounts or free plans for educational use?\n\nThank you,\nProfessor Smith",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Reschedule - Project Nova Standup\n\nHi Team,\n\nI need to reschedule today's daily standup meeting to 10:30 AM instead of 10:00 AM due to a conflict. Please adjust your calendars. Apologies for the late notice.\n\n- Sarah",
+    "intent": "Meeting Request",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: Slow dashboard loading times\n\nHi Support,\n\nOver the past week, we've noticed that our main analytics dashboard is taking 30-40 seconds to load, whereas it used to load in under 5. This is significantly impacting our team's productivity.\n\n- Analytics Manager",
+    "intent": "Technical Support",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: New Health Insurance Provider for Next Year\n\nHi Employees,\n\nThis is an important update regarding our benefits package. For the upcoming year, we will be switching our health insurance provider. Please attend the mandatory information session next Tuesday to learn about the new plans.\n\n- HR",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  },
+  {
+    "email_text": "Subject: Urgent: Final Contract Review - Must be signed by 5 PM\n\nHi Legal Team,\n\nI have the final version of the enterprise client contract that needs to be reviewed and signed by 5 PM today to close the deal. I need to schedule an urgent 1-hour review session with you this afternoon. Please let me know your availability immediately.\n\n- Account Executive",
+    "intent": "Meeting Request",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: Inquiry about white-labeling options\n\nHello,\n\nWe are an agency that would like to offer your analytics platform to our clients under our own brand. Do you offer a white-label or reseller program?\n\n- Agency Owner",
+    "intent": "Sales Inquiry",
+    "urgency": "Medium"
+  },
+  {
+    "email_text": "Subject: CRITICAL - Payment processing failed\n\nSupport,\n\nOur payment processing system, which relies on your API, has failed. We are unable to process any new customer transactions. This is a SEV1 issue directly impacting our revenue. We need an immediate response.\n\n- E-commerce Manager",
+    "intent": "Technical Support",
+    "urgency": "High"
+  },
+  {
+    "email_text": "Subject: End-of-Year Holiday Party!\n\nHi Everyone,\n\nSave the date! Our annual End-of-Year Holiday Party will be on Friday, December 12th. Get ready for a night of fun, food, and celebration. Formal invitations to follow!\n\n- Party Planning Committee",
+    "intent": "Internal Update",
+    "urgency": "Low"
+  }
+]

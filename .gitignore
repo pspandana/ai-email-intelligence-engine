@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Environment
+venv/
+myvenv/
+
+# Local Data & Models
+db/
+results/
+logs/
+
+# Python cache
+__pycache__/

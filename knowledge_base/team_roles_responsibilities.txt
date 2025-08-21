@@ -1,0 +1,57 @@
+
+Of course. Here are the team roles and responsibilities for Project Nova.
+
+Project Nova: Team Roles & Responsibilities
+Document Purpose: This document outlines the primary roles and key responsibilities for the core team members assigned to Project Nova. The goal is to ensure clear ownership and smooth collaboration throughout the project lifecycle.
+
+## Core Team
+1. Project Manager
+Team Member: Sarah Chen
+
+Core Responsibility: To ensure Project Nova is delivered on time, within scope, and on budget. Sarah is the central point of contact for all project-related communication and coordination.
+
+Key Responsibilities:
+
+Develop and maintain the detailed project plan and timeline.
+
+Organize and lead all project meetings (e.g., stand-ups, stakeholder reviews).
+
+Track progress, identify potential blockers, and manage project risks.
+
+Facilitate communication between the development team and other stakeholders.
+
+Provide regular status updates to the Head of Product and other key stakeholders.
+
+2. Lead Developer
+Team Member: David Rodriguez
+
+Core Responsibility: To oversee the technical architecture and implementation of the sentiment analysis feature. David is responsible for the quality, performance, and scalability of the code.
+
+Key Responsibilities:
+
+Lead the design of the backend system, including the machine learning model integration and API development.
+
+Write high-quality, well-tested code for the core components of the feature.
+
+Conduct code reviews for other developers contributing to the project.
+
+Mentor junior developers and provide technical guidance.
+
+Collaborate with the UX Designer to ensure the backend can support the required frontend functionality.
+
+3. UX Designer
+Team Member: Emily White
+
+Core Responsibility: To design an intuitive, engaging, and user-friendly interface for the new sentiment analysis dashboard within the Starlight Platform.
+
+Key Responsibilities:
+
+Conduct user research to understand client needs and pain points related to sentiment analysis.
+
+Create wireframes, mockups, and interactive prototypes for the new dashboard.
+
+Develop and maintain the user flow and information architecture.
+
+Collaborate closely with the Lead Developer to ensure technical feasibility of the designs.
+
+Conduct usability testing sessions with beta customers to gather feedback and iterate on the design.

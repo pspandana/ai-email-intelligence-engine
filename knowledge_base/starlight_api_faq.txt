@@ -1,0 +1,56 @@
+
+Starlight Platform API - Frequently Asked Questions (FAQ)
+Last Updated: August 20, 2025
+
+Welcome to the Starlight Platform API! This document provides answers to common questions to help you get started with your integration.
+
+1. How do I get an API key to authenticate my requests?
+To get your API key, you must first log in to your Starlight Platform account. Navigate to the Admin Dashboard, then click on the "API & Integrations" tab. In this section, you will find a button labeled "Generate New API Key." Your key will be a long string starting with sk_....
+
+Remember to treat your API key like a password and keep it secure. You must include this key in the header of every request for authentication, like so:
+Authorization: Bearer sk_your_api_key
+
+2. Are there any rate limits I should be aware of?
+Yes. To ensure fair usage and system stability for all our clients, the Starlight Platform API is rate-limited. By default, your account is limited to 100 requests per minute.
+
+If you exceed this limit, you will receive a 429 Too Many Requests HTTP status code. We recommend implementing a retry mechanism with exponential backoff in your application to handle these cases gracefully. If you require a higher rate limit for your application, please contact our support team to discuss your use case.
+
+3. What is the data format for API responses?
+All data returned by the Starlight Platform API is in JSON (JavaScript Object Notation) format. Successful responses will always have a 200 OK HTTP status code and a body containing the requested data.
+
+A typical successful response structure will look like this:
+
+JSON
+
+{
+  "status": "success",
+
+  "data": {
+    "report_id": "rpt_12345",
+    "results": [...]
+  },
+  "pagination": {
+    "next_page_token": "token_abcde"
+  }
+}
+4. How should I handle API errors?
+The API uses standard HTTP status codes to indicate the success or failure of a request. You should build your integration to handle the following common error codes:
+
+400 Bad Request: Your request was malformed. This could be due to a missing required parameter or an invalid value. The response body will contain a message field with more details.
+
+401 Unauthorized: Your API key is missing, invalid, or expired.
+
+404 Not Found: The resource you requested does not exist.
+
+500 Internal Server Error: An unexpected error occurred on our end. Please wait a moment and try your request again. If the problem persists, check our status page or contact support.
+
+5. Can you provide a simple example of fetching a report?
+Certainly. To fetch a basic analytics report, you would make a GET request to the /reports endpoint. You can use a tool like curl to test this from your command line.
+
+Here is an example that fetches a report with the ID rpt_12345:
+
+Bash
+
+curl -X GET "https://api.starlight-orbitai.com/v1/reports/rpt_12345"      -H "Authorization: Bearer sk_your_api_key"
+This will return the full JSON payload for that specific report, which you can then parse and use in your application.
+

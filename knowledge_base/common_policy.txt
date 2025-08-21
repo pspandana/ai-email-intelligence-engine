@@ -1,0 +1,36 @@
+
+OrbitAI Internal Communication Policy
+Our Goal: At OrbitAI, we believe in open, efficient, and respectful communication. This document isn't about strict rules; it's a guide to help us collaborate effectively as we grow. Our goal is to keep everyone informed without creating unnecessary noise.
+
+## Slack: The Digital Office
+Slack is our primary tool for real-time conversations, quick questions, and team collaboration.
+
+Use Public Channels First: Default to public channels for work-related discussions. This keeps information transparent and allows others to learn or contribute.
+
+Threads are Your Friend: For any conversation that involves more than two replies, please start a thread. This keeps our main channels clean and easy to scan.
+
+Respect Focus Time: Use @here and @channel sparingly, as they notify everyone in the channel. Only use them for truly urgent and important announcements.
+
+Set Your Status: Use statuses (e.g., 🗓️ In a meeting, 🌴 On vacation) to let others know your availability.
+
+## Email: For Official Business
+Email is for more formal, external communication or important internal announcements that need a permanent record.
+
+Be Clear and Concise: Use a descriptive subject line (e.g., "Project Nova: Weekly Update"). Keep the body of the email focused and to the point.
+
+Know Who to CC: Be mindful of who you include in an email chain. If someone's input is no longer needed, consider moving them to BCC or removing them from the thread.
+
+Response Time: Aim to acknowledge important emails within 24 hours, even if it's just to say, "Got it, I'll look into this and get back to you by Friday."
+
+## Meetings: For Collaboration
+Meetings are for collaborative work, decision-making, and discussions that are too complex for Slack or email.
+
+Have a Clear Agenda: Every meeting invitation must include a clear agenda with the topics to be discussed and the desired outcome.
+
+Be on Time: Respect everyone's time by joining meetings promptly.
+
+Come Prepared: Review the agenda and any pre-reading materials before the meeting starts.
+
+30-Minute Default: Try to schedule meetings for 30 minutes by default. If more time is needed, be sure the agenda justifies it.
+
+In short: Be thoughtful, be respectful, and choose the right tool for the job. Let's build something amazing together!
