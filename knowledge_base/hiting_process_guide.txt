@@ -1,0 +1,12 @@
+OrbitAI - Hiring & Interview Process Guide
+
+Document Purpose: This guide outlines the standard process for all candidates interviewing at OrbitAI.
+
+1.  **Application:** All candidates must apply through our official careers page.
+2.  **Initial Screening:** A member of our recruiting team will conduct a 30-minute introductory call to discuss the role and the candidate's background.
+3.  **Technical / Team Interview:** Candidates will meet with the hiring manager and potential team members for a 1-2 hour technical or role-specific interview.
+4.  **Final Interview:** The final stage is an interview with the department head.
+
+**Regarding Salary Discussion:**
+OrbitAI is transparent about compensation. During the **initial screening call**, 
+the recruiter will discuss the salary range for the role to ensure alignment with the candidate's expectations. We do not typically negotiate salary details until the final offer stage, but we are committed to ensuring that our initial range is clear and competitive from the very first conversation.
