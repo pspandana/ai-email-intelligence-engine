@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Email Intelligence Engine - Presentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .slide {
+            display: none;
+        }
+        .slide.active {
+            display: flex;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center h-screen">
+
+    <div id="presentation-container" class="w-full max-w-4xl h-[500px] bg-white rounded-lg shadow-2xl flex flex-col relative overflow-hidden">
+
+        <!-- Slide 1: Title & Objective -->
+        <div class="slide active w-full h-full flex-col items-center justify-center p-12 text-center">
+            <h1 class="text-5xl font-black text-gray-800">AI Email Intelligence Engine</h1>
+            <p class="mt-4 text-2xl text-gray-600 max-w-3xl mx-auto">An application that uses a hybrid AI pipeline to automatically classify, enrich, and generate responses for emails.</p>
+            <p class="mt-12 text-xl text-gray-700">[Your Name]</p>
+        </div>
+
+        <!-- Slide 2: Step 1 -->
+        <div class="slide w-full h-full flex-col items-start justify-center p-12">
+            <h2 class="text-4xl font-bold text-blue-600 mb-6">1. We Started with the Data</h2>
+            <p class="text-xl text-gray-700 mb-6">Before an AI can learn, it needs data. I created two different kinds for this project.</p>
+            <div class="space-y-4">
+                <p class="text-xl text-gray-700">📝 **Labeled Emails:** I generated a set of 100 sample emails in a JSON file. Each email was labeled with its correct `intent` and `urgency`. This is the data our first AI model would train on.</p>
+                <p class="text-xl text-gray-700">📚 **The Knowledge Base:** I also created a folder of internal documents as `.txt` files, such as project briefs and company policies. This acts as a private reference library for the AI to find facts.</p>
+            </div>
+        </div>
+
+        <!-- Slide 3: Step 2 -->
+        <div class="slide w-full h-full flex-col items-start justify-center p-12">
+            <h2 class="text-4xl font-bold text-blue-600 mb-6">2. We Built the "Fast Sorter"</h2>
+            <p class="text-xl text-gray-700 mb-6">The first part of the system needed to be very fast to handle the initial sorting of every email.</p>
+            <div class="space-y-4">
+                <p class="text-xl text-gray-700">For this, I used a Machine Learning algorithm called **DistilBERT**. I chose it because it’s great at understanding the context of human language, which makes it very accurate.</p>
+                <p class="text-xl text-gray-700">I **trained** this model on the 100 sample emails. After studying these examples, the model learned the patterns and can now quickly predict the intent and urgency of any new email.</p>
+            </div>
+        </div>
+
+        <!-- Slide 4: Step 3 -->
+        <div class="slide w-full h-full flex-col items-start justify-center p-12">
+            <h2 class="text-4xl font-bold text-blue-600 mb-6">3. We Organized the "Library"</h2>
+            <p class="text-xl text-gray-700 mb-6">Just having a library isn't enough; the AI needs a fast way to find the right information. This is the core of the RAG system.</p>
+            <div class="space-y-4">
+                <p class="text-xl text-gray-700">To do this, I used a **Vector Database** called **ChromaDB**.</p>
+                <p class="text-xl text-gray-700">The system reads all the documents, breaks them into small chunks, and converts each chunk's meaning into a number code, or a **vector**.</p>
+                <p class="text-xl text-gray-700">This allows the AI to search by **meaning**, not just keywords, and instantly find the most relevant information.</p>
+            </div>
+        </div>
+        
+        <!-- Slide 5: Step 4 -->
+        <div class="slide w-full h-full flex-col items-start justify-center p-12">
+            <h2 class="text-4xl font-bold text-blue-600 mb-6">4. We Added the "Expert Brain"</h2>
+            <p class="text-xl text-gray-700 mb-6">The fast sorter is great, but for deep thinking and writing, we need a more powerful brain.</p>
+            <div class="space-y-4">
+                 <p class="text-xl text-gray-700">🧠 **The "Expert Brain":** I used a powerful Large Language Model called **Mistral-7B** that runs entirely on my own computer. This makes the system completely private.</p>
+                 <p class="text-xl text-gray-700">🔗 **The "Glue":** To make all these different parts work together, I used a framework called **LangChain**. It acts as the central nervous system, passing the email from one stage to the next.</p>
+            </div>
+        </div>
+        
+        <!-- Slide 6: Step 5 -->
+        <div class="slide w-full h-full flex-col items-start justify-center p-12">
+            <h2 class="text-4xl font-bold text-blue-600 mb-6">5. We Built the "Front Door"</h2>
+            <p class="text-xl text-gray-700 mb-6">With the whole system built, we needed a way for the outside world to use it.</p>
+            <div class="space-y-4">
+                 <p class="text-xl text-gray-700">I used **FastAPI** to build a web API. This acts as the front door to our application.</p>
+                 <p class="text-xl text-gray-700">It creates a simple web address where we can send an email and get the full analysis back, turning the project from a script into a professional, usable application.</p>
+            </div>
+        </div>
+
+        <!-- Slide 7: Live Demo -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-12 text-center">
+            <h2 class="text-5xl font-bold text-blue-600">Live Demo</h2>
+            <p class="mt-4 text-xl text-gray-600">Let's see it in action at:</p>
+            <p class="mt-2 text-lg font-mono bg-gray-200 p-2 rounded">http://127.0.0.1:8000/docs</p>
+        </div>
+
+        <!-- Slide 8: Thank You -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-12 text-center">
+            <h2 class="text-5xl font-bold text-gray-800">Thank You</h2>
+            <p class="mt-6 text-3xl text-gray-600">Any Questions?</p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="absolute bottom-0 left-0 right-0 p-4 flex justify-between items-center bg-gray-800 text-white">
+            <button id="prevBtn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Previous</button>
+            <span id="slide-counter" class="text-sm">Slide 1 / 8</span>
+            <button id="nextBtn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const slideCounter = document.getElementById('slide-counter');
+        let currentSlide = 0;
+
+        function showSlide(n) {
+            slides.forEach((slide, index) => {
+                slide.classList.remove('active');
+                if (index === n) {
+                    slide.classList.add('active');
+                }
+            });
+            slideCounter.textContent = `Slide ${n + 1} / ${slides.length}`;
+            prevBtn.disabled = n === 0;
+            nextBtn.disabled = n === slides.length - 1;
+        }
+
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                showSlide(currentSlide);
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') {
+                prevBtn.click();
+            } else if (e.key === 'ArrowRight') {
+                nextBtn.click();
+            }
+        });
+
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>
